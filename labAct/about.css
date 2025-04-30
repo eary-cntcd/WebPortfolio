@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/epak.jpg');
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex; 
+    flex-direction: column; 
+    min-height: 100vh; 
+}
+
+nav {
+    background-color: black;
+    overflow: hidden;
+    height: 80px;
+    line-height: 80px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-right: 50px;
+}
+
+nav li {
+    float: left;
+    margin-left: 40px;
+}
+nav li:first-child{
+    margin-left: 0; 
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1; 
+}
+
+#about {
+    max-width: 800px;
+    margin: 150px 120px;
+}
+
+#about h2 {
+    color: white;
+    margin-bottom: 20px; 
+    font-size: 50px; 
+}
+
+#about p {
+    color: white;
+    font-size: 26px; 
+    line-height: 1.8; 
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    padding: 24px 0; 
+}
+
+footer p {
+    font-size: 13px; 
+    margin: 0;
+}

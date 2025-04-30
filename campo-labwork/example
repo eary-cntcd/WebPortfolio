@@ -1,0 +1,21 @@
+class User:
+    def __init__(self, username):
+        self.username = username
+
+class UserManager:
+    def create_user(self, username):
+        user = User(username)
+        print(f"User {username} created.")
+        return user
+
+class EmailService:
+    @staticmethod
+    def send_welcome_email(user):
+        print(f"Sending welcome email to {user.username}")
+
+# Usage
+user_manager = UserManager()
+email_service = EmailService()
+
+new_user = user_manager.create_user("Alice")
+email_service.send_welcome_email(new_user)

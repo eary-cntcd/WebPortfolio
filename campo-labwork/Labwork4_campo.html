@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cryptography Task</title>
+
+    <link rel="shortcut icon" href="key.svg">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.3.0/crypto-js.min.js"></script>
+    <script src="tago.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #19651a;
+            padding: 1px;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 1.2em;
+            color: white;
+        }
+
+        form {
+            background-color: white;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+        }
+
+        label, input[type="text"], input[type="submit"] {
+            display: block;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #19651a;
+        }
+
+        input[type="text"] {
+            padding: 7px 0 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #19651a;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #155517;
+        }
+
+        h3 {
+            margin: 20px 0 10px 0;
+            color: #7435a1;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        #encryptedText, #decryptedText {
+            background-color: #f4d300;
+            padding: 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            word-wrap: break-word;
+            color: #333;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Encryption and Decryption Process</h1>
+        <h2>Earrol Campo</h2>
+        <h2>BSIT - 3A</h2>
+    </header>
+
+    <form id="cryptoForm">
+        <label for="inputText">Text to Encrypt:</label>
+        <input type="text" id="inputText" required>
+
+        <label for="encryptionKey">Encryption Key:</label>
+        <input type="text" id="encryptionKey" required>
+
+        <input type="submit" value="Encrypt">
+    </form>
+
+    <div>
+        <h3>Encrypted Text:</h3>
+        <p id="encryptedText"></p>
+    </div>
+
+    <form id="decryptoForm">
+        <label for="decryptionKey">Decryption Key:</label>
+        <input type="text" id="decryptionKey" required>
+
+        <input type="submit" value="Decrypt">
+    </form>
+
+    <div>
+        <h3>Decrypted Text:</h3>
+        <p id="decryptedText"></p>
+    </div>
+
+</body>
+
+</html>

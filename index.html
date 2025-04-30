@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campo - Portfolio</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!--- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <!--- #SIDEBAR-->
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my_avatar.jpg" alt="Earrol Campo" >
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Earrol Campo">Earrol  Campo</h1>
+          <p class="title">BSIT - 3A</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:sc.earrolkenneth.campo@cvsu.edu.ph" class="contact-link">sc.earrolkenneth.campo@cvsu.edu.ph</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:0947 872 3180" class="contact-link">0947 872 3180</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">School</p>
+              <school>CVSU - Silang</school>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>GMA, Cavite</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://www.facebook.com/ear.rol.3" target="_blank" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/eary-cntcd" target="_blank" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/datboi.eary/" target="_blank" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <!--- #main-content-->
+    <div class="main-content">
+      <!--- #NAVBAR-->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--- #ABOUT-->
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            I'm Earrol Kenneth Campo, 21 years old from G.M.A. Cavite. I'm currently at my 3rd Year in college in 
+            Cavite State Universty Silang Campus.
+          </p>
+          <p>
+            I am well-versed in HTML, CSS and JavaScript , and other cutting edge frameworks and libraries,
+            which allows me to implement interactive features. Additionally, I have experirence working with 
+            Computer System Servicing (CSS) as I completed my TESDA course and CISCO Packet tracerc in CISCO Acadamy.
+          </p>
+        </section>
+
+        <!--- service-->
+        <section class="service">
+          <h3 class="h3 service-title">What i'm doing</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">skill</h4>
+                <p class="service-item-text">
+                  HTML. CSS. C++. JAVA. JS. PHP. BOOTSTRAP. CISCO.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">PC & Moblie Games</h4>
+                <p class="service-item-text">
+                  LoL. Valorant. SF. ML. CoDM. 
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Hobby</h4>
+                <p class="service-item-text">
+                  Thifting. Cycling. 
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+                <p class="service-item-text">
+                  I use my phone (S22+) pro mode to shoot high-quality photos.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <h3 class="h3 service-title">Badge &</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <img src="./assets/images/badge.jpg" alt="Skills Image" class="skills-image">
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-content-box">
+                <img src="./assets/images/cert.jpg" alt="Skills Image" class="skills-image">
+              </div>
+            </li>
+
+        </section>
+
+        <!--- testimonials
+        -->
+
+        <section class="testimonials">
+        </section>
+
+        <!--- testimonials modal-->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CVSU - Silang</h4>
+
+              <span>COllege</span>
+
+              <p class="timeline-text">
+                Under Bachelor of Science in Information Technology
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">G.M.A.T.H.S.</h4>
+
+              <span>High School - Senior High School</span>
+
+              <p class="timeline-text">
+                In SHS i took TVL strand in Broadband Focus
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+          <div class="title-wrapper">
+              <div class="icon-box">
+                  <ion-icon name="book-outline"></ion-icon>
+              </div>
+              <h3 class="h3">Experience</h3>
+          </div>
+      
+          <ol class="timeline-list">
+      
+              <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Web Developer</h4>
+                  <span>2022 — Present</span>
+                  <p class="timeline-text">
+                      Throughout my experience in college, I can say that I have the skill
+                      to become a Web Developer.
+                  </p>
+              </li>
+      
+              <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">App Developer</h4>
+                  <span>2022 — Present</span>
+                  <p class="timeline-text">
+                      I developed two apps for my projects: a Library App and a Face Recognition
+                      App for Brader's gym.
+                  </p>
+              </li>
+      
+              <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">Computer System Servicing</h4>
+                  <span>NC2 Passers</span>
+                  <p class="timeline-text">
+                      In this experience, I learned about computer troubleshooting, building a 
+                      computer, and computer configuration.
+                  </p>
+              </li>
+          </ol>
+          <div class="download-resume">
+              <a href="./assets/documents/my_resume.pdf" download class="btn">Download Resume</a>
+          </div>
+      </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Development</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">App Development</h5>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+        <section class="projects">
+          <ul class="filter-list">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Quizzes</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Lab Work</button>
+            </li>
+            <li class="filter-item">
+              <button data-filter-btn>Exam</button>
+            </li>
+          </ul>
+
+          <div class="filter-select-box">
+            <button class="filter-select" data-select>
+              <div class="select-value" data-selecct-value>Select category</div>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+            </button>
+
+            <ul class="select-list">
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Quizzes</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Lab Work</button>
+              </li>
+              <li class="select-item">
+                <button data-select-item>Exam</button>
+              </li>
+            </ul>
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="quizzes">
+              <a href="./assets/images/pre_test.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/pre_test.jpg" alt="finance" loading="lazy">
+                </figure>
+                <h3 class="project-title">Pre-Test</h3>
+                <p class="project-category">10/11</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="exam">
+              <a href="./assets/images/exam.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/exam.jpg" alt="orizon" loading="lazy">
+                </figure>
+                <h3 class="project-title">Exam</h3>
+                <p class="project-category">32/70</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quizzes">
+              <a href="./assets/images/post_test2.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/post_test2.jpg" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title">Post-Test2</h3>
+                <p class="project-category">19/20</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quizzes">
+              <a href="./assets/images/post_test3.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/post_test3.jpg" alt="dsm." loading="lazy">
+                </figure>
+                <h3 class="project-title">Post-Test3</h3>
+                <p class="project-category">15/20</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quizzes">
+              <a href="./assets/images/post_test4.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/post_test4.jpg" alt="summary" loading="lazy">
+                </figure>
+                <h3 class="project-title">Post-test4</h3>
+                <p class="project-category">18/20</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="lab work">
+              <a href="./assets/images/lab_work.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/lab_work.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Lab Work</h3>
+                <p class="project-category">95</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="quizzes">
+              <a href="./assets/images/post_test5.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/post_test5.jpg" alt="arrival" loading="lazy">
+                </figure>
+                <h3 class="project-title">Post-Test5</h3>
+                <p class="project-category">17/20</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="lab work">
+              <a href="./assets/images/lab_work1.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/lab_work1.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Lab Work</h3>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="lab work">
+              <a href="./assets/images/paired.jpg" target="_blank">
+                <figure class="project-img">
+                  
+                  <img src="./assets/images/paired.jpg" alt="task manager" loading="lazy">
+                </figure>
+                <h3 class="project-title">Paired Lab Work</h3>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+      <!--- #BLOG-->
+      <article class="projects" data-page="projects">
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="./ITEC106-lab5/index.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/bday.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Guess My Birthday Game</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./campo-labwork/Labwork4_campo.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/encrypt.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Encrypt and Decrypt Process</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./Campo_Earrol_lab4/index.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/hotel.jpg" alt="Design digest #80" loading="lazy" >
+                  
+                </figure>
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">FAME Residences Hotel</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./Itec101/index.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/log-in.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Simple Student Login</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./Itec101/register.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/regs.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Simple Student Registration</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+                </div>
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="./labAct/contact.html" target="_blank">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/paired_website.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+                  <h3 class="h3 blog-item-title">Paired website</h3>
+                  <p class="blog-text">
+                    Click to visit the website.
+                  </p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </article>
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+            <input type="hidden" name="access_key" value="91f8ad6a-1319-4830-92fc-6a4d3a9932f7">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" >
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
